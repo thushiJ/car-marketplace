@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/select";
 import { Separator } from "@radix-ui/react-select";
 import { CiSearch } from "react-icons/ci";
-import { CarMakes, Pricing } from "@/Shared/Data";
+import Data from "@/Shared/Data";
 
 function Search() {
   return (
@@ -22,7 +22,7 @@ function Search() {
           <SelectValue placeholder="Car Makes" />
         </SelectTrigger>
         <SelectContent>
-          {CarMakes.map((maker, index) => (
+          {Data.CarMakes.map((maker, index) => (
             <SelectItem value={maker.name}>{maker.name}</SelectItem>
           ))}
         </SelectContent>
@@ -34,7 +34,7 @@ function Search() {
           <SelectValue placeholder="Pricing" />
         </SelectTrigger>
         <SelectContent>
-          {Pricing.map((price, index) => (
+          {Data.Pricing.map((price, index) => (
             <SelectItem value={price.amount}>{price.amount}</SelectItem>
           ))}
         </SelectContent>
