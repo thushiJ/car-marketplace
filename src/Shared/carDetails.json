@@ -1,0 +1,145 @@
+{
+    "carDetails":[
+        {
+            "label": "Listing Title",
+            "name": "ListingTitle",
+           "fieldType": "text",
+           "required": true,
+           "column":2,
+           "icon": "FaClipboardList"
+        },
+        {
+            "label": "Listing Title",
+            "name": "ListingTitle",
+            "fieldType": "text",
+            "required": true,
+            "column": 2,
+            "icon": "FaClipboardList"
+        },
+        {
+            "label": "Description",
+            "name": "Description",
+            "fieldType": "textarea",
+            "required": true,
+            "column": 2,
+            "icon": "FaFileAlt"
+        },
+        {
+            "label": "Price",
+            "name": "Price",
+            "fieldType": "number",
+            "required": true,
+            "column": 1,
+            "icon": "FaDollarSign"
+        },
+        {
+            "label": "Category",
+            "name": "Category",
+            "fieldType": "dropdown",
+            "required": true,
+            "column": 1,
+            "icon": "FaTags"
+        },
+        {
+            "label": "Location",
+            "name": "Location",
+            "fieldType": "text",
+            "required": true,
+            "column": 2,
+            "icon": "FaMapMarkerAlt"
+        },
+        {
+            "label": "Contact Number",
+            "name": "ContactNumber",
+            "fieldType": "tel",
+            "required": true,
+            "column": 1,
+            "icon": "FaPhoneAlt"
+        },
+        {
+            "label": "Email",
+            "name": "Email",
+            "fieldType": "email",
+            "required": false,
+            "column": 2,
+            "icon": "FaEnvelope"
+        },
+        {
+            "label": "Image Upload",
+            "name": "ImageUpload",
+            "fieldType": "file",
+            "required": false,
+            "column": 2,
+            "icon": "FaImage"
+        },
+        {
+            "label": "Product Name",
+            "name": "ProductName",
+            "fieldType": "text",
+            "required": true,
+            "column": 1,
+            "icon": "FaTag"
+        },
+        {
+            "label": "Short Description",
+            "name": "ShortDescription",
+            "fieldType": "textarea",
+            "required": true,
+            "column": 2,
+            "icon": "FaFileText"
+        },
+        {
+            "label": "Stock Quantity",
+            "name": "StockQuantity",
+            "fieldType": "number",
+            "required": true,
+            "column": 1,
+            "icon": "FaBoxes"
+        },
+        {
+            "label": "SKU",
+            "name": "SKU",
+            "fieldType": "text",
+            "required": false,
+            "column": 1,
+            "icon": "FaBarcode"
+        },
+        {
+            "label": "Shipping Address",
+            "name": "ShippingAddress",
+            "fieldType": "textarea",
+            "required": true,
+            "column": 2,
+            "icon": "FaAddressCard"
+        },
+        {
+            "label": "Order Date",
+            "name": "OrderDate",
+            "fieldType": "date",
+            "required": true,
+            "column": 1,
+            "icon": "FaCalendarAlt"
+        },
+        {
+            "label": "Customer Name",
+            "name": "CustomerName",
+            "fieldType": "text",
+            "required": true,
+            "column": 2,
+            "icon": "FaUserAlt"
+        },
+        {
+            "label": "Discount Code",
+            "name": "DiscountCode",
+            "fieldType": "text",
+            "required": false,
+            "column": 1,
+            "icon": "FaPercentage"
+        }
+        
+        
+        
+        
+       
+     ]
+}

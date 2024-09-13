@@ -1,0 +1,53 @@
+{
+    
+        "features": [
+          {
+            "label": "Air conditioner",
+            "name": "airConditioner",
+            "fieldType": "checkbox"
+          },
+          {
+            "label": "WiFi",
+            "name": "wifi",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Parking",
+            "name": "parking",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Swimming Pool",
+            "name": "swimmingPool",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Gym",
+            "name": "gym",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Balcony",
+            "name": "balcony",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Pet Friendly",
+            "name": "petFriendly",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Laundry",
+            "name": "laundry",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Garden",
+            "name": "garden",
+            "fieldType": "checkbox"
+        }
+        
+        
+        ]
+      }
+
