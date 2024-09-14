@@ -9,8 +9,8 @@
            "icon": "FaClipboardList"
         },
         {
-            "label": "Listing Title",
-            "name": "ListingTitle",
+            "label": "Tagline",
+            "name": "tagline",
             "fieldType": "text",
             "required": true,
             "column": 2,

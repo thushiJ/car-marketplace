@@ -9,6 +9,7 @@ import { Checkbox } from "@/components/ui/checkbox"
 import { Button } from '@/components/ui/button'
 import { useState } from 'react'
 import { Textarea } from "@/components/ui/textarea"
+import UploadImages from './components/UploadImages'
 
 
 function AddListing() {
@@ -21,10 +22,12 @@ function AddListing() {
     }))
     console.log(formData);
   }
+
   const onsubmit=(e)=>{
     e.preventDefault();
     console.log(formData);
   }
+  
   return (
     <div>
         <Header/>
@@ -62,12 +65,15 @@ function AddListing() {
                     
                   </div>
                   {/* Car Images */}
+                  <Separator className='my-6'/>
+                 
                   <div className='mt-10 flex justify-end'>
                     <Button type = "submit" onClick={(e)=>onsubmit(e)}>
                       Submit
                     </Button>
                   </div>
         </form>
+        <UploadImages/>
         </div>
     </div>
   )
